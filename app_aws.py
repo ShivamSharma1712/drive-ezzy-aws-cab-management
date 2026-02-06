@@ -22,7 +22,7 @@ admin_table = dynamodb.Table("AdminUsers")
 vehicles_table = dynamodb.Table("Vehicles")
 bookings_table = dynamodb.Table("Bookings")
 
-SNS_TOPIC_ARN = "YOUR_SNS_TOPIC_ARN"
+SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:440744259838:BookingNotifications:2ea14ce3-7d05-44e0-a91b-9af60002d26e"
 
 # ================= FILE UPLOAD =================
 UPLOAD_FOLDER = "static/uploads"
